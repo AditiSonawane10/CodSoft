@@ -1,0 +1,182 @@
+/* Hero section */
+.navbar img{
+    margin-left: 5%;
+    width: 150px;
+}
+.navbar{
+    display: flex;
+}
+.navbar h4{
+    color: white;
+    margin: auto;
+    margin-left: 0%;
+    font-size: 150%;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 1%;  /* This will push the navbar to the right */
+}
+.navbar li{
+    padding: 8px 50px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+.navbar li a:hover{
+    /* background-color: white;
+    border-radius: 40%; */
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: white;
+}
+.main{
+    background-image: url(../img/background_img.jpg);
+    padding-top: 20px;
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-img{
+    margin-left: 10%;
+}
+.bg-img button{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-size: 110%;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.bg-img button:hover{
+    background-color: rgb(227, 227, 204);
+}
+.bg-img p{
+    color: white;
+    font-size: 25px;
+    margin-top: 8%;
+}
+.bg-img h1{
+    margin-top: 0%;
+    color: white;
+    font-size: 60px;
+}
+/* Services Section */
+.services h1{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 5%;
+    justify-content: center;
+    margin-block-end: 3%;
+}
+.card {
+    border: 1px solid whitesmoke;
+    width: 400px; 
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 grey;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 burlywood;
+}
+.card img{
+    width: 350px;
+    height: 350px;
+    padding: 22px;
+    border-radius: 10%;
+}
+.card p,h2{
+    margin-left: 10%;
+    margin-top: 1px;
+}
+/* About Us Section */
+.aboutus{
+    background-image: url(../img/bgabout.jpg);
+    background-size: 100%;
+    /* padding: 200px; */
+    display: flex;
+}
+.aboutus img{
+    width: 600px;
+    height: 550px;
+    margin-left: 50px;
+}
+.content{
+    /* border: 1px solid black; */
+    padding: 5%;
+    color: beige;
+}
+.content h1{
+    font-size: 300%;
+}
+.content  h4,p{
+    font-size: 150%;
+    text-align: justify;
+}
+.content button{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-size: 110%;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.content button:hover{
+    background-color: rgb(227, 227, 204);
+}
+/* Contact Us Section */
+ .contact{
+    background-image: url(../img/bgcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5%;
+    /* padding: 8%;     */
+    display: flex;
+    margin-bottom: 1%;
+    padding-bottom: 0%;
+
+}
+.contact img{
+    width: 700px;
+    height: 700px;
+    margin-left: 25%;
+}
+.info{
+    display: block;
+    color: whitesmoke;
+    margin-left: 10%;
+    margin-top: 10%;
+    /* padding: 5%; */
+}
+.info h1{
+    font-size: 300%;
+}
+.content  h3{
+    font-size: 150%;
+    text-align: justify;
+}
+.follow{
+    display: flex;
+    /* gap: 0%; */
+}
+.follow img{
+    width: 50px;
+    height: 30px;
+    background-color: whitesmoke;
+    padding: 1%;
+    border-radius: 40%;
+    margin-left: 4%;
+}
+.follow img:hover{
+    background-color: rgb(123, 85, 35);
+}
+
+.cpy p{
+    text-align: center;
+    font-size: medium;
+} 

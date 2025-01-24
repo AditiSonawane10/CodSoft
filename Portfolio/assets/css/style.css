@@ -1,0 +1,227 @@
+/* Hero section */
+.navbar{
+    background-image: url(../img/bg.jpg);
+    background-size: 100%;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+}
+.navbar h1{
+    color: black;
+    margin: auto;
+    margin-left: 5%;
+    font-size: 200%;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 1%;  /* This will push the navbar to the right */
+    
+}
+.nav li{
+    padding: 9px 50px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+.nav li a:hover{
+    text-decoration: underline ;
+    text-underline-offset: 6px;
+    color: palevioletred;
+}
+
+/* Intro section */
+.intro{
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+.content{
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.subtitle{
+    font-size: 120%;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 200%;
+    margin-bottom: 1rem;
+    margin-left: 0%;
+}
+.descrition{
+    font-size: 130%;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.action_buttons{
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+}
+.action_buttons button{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.bt{
+    background-color: rgb(199, 170, 199);
+    color:rgb(249, 249, 255);
+}
+.bt:hover{
+    background-color: palevioletred;
+    color: white;
+}
+.image{
+    display: grid;
+    place-items: center;
+}
+.image img{
+    width: 60%;
+    height: 80%;
+    border-radius:  100%;
+}
+
+/* About Me section */
+.about{
+    padding: 1px;
+    display: block;
+    margin-top: 1px;
+}
+.flexabout{
+    display: flex;
+}
+.flexabout img{
+    margin-left: 3%;
+}
+.info h1{
+    font-size: 60px;
+}
+.info{
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-right: 6%;
+    display: block;
+    text-align: justify;
+    font-size: 120%;
+}
+
+/* Project Section */
+.project h1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 60px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 5%;
+    justify-content: center;
+    margin-block-end: 3%;
+}
+.card {
+    border: 1px solid whitesmoke;
+    width: 400px; 
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 grey;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 palevioletred;
+}
+.card img{
+    width: 350px;
+    height: 350px;
+    padding: 22px;
+    border-radius: 10%;
+}
+.card p,h2{
+    margin-left: 10%;
+    margin-top: 1px;
+}
+.card button{
+    padding: 10px;
+    margin-bottom : 20px;
+    margin-left: 160px;
+    font-size: 110%;
+    border: none;
+    border-radius: 20px;
+}
+.bt_pr{
+    background-color: rgb(199, 170, 199);
+    color:rgb(249, 249, 255);
+}
+.bt_pr:hover{
+    background-color: palevioletred;
+    color: white;
+}
+
+/* contact section */
+.contact{
+    
+    display: block;
+    text-align: center;
+    
+}
+.contact h1{
+    margin-bottom: 3%;
+    margin-top: 0%;
+    font-size: 60px;
+}
+.con_info{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    /* width: 400px;  */
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 grey;
+}
+.con_info:hover{
+    box-shadow: 0 8px 16px 0 palevioletred;
+}
+.con_info input{
+    width: 70%;
+    border: 1px solid rgb(199, 199, 218);
+    padding: 10px;
+    margin-top: 20px;
+}
+.con_info button{
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom : 10px;
+    margin-left: 10px;
+    font-size: 110%;
+    border: none;
+    border-radius: 20px;
+}
+.bg_con{
+    background-color: rgb(199, 170, 199);
+    color:rgb(249, 249, 255);
+}
+.bg_con:hover{
+    background-color: palevioletred;
+    color: white;
+}
+
+.cpy p{
+    margin-top: 3%;
+    text-align: center;
+    font-size: medium;
+} 
